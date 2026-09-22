@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 113.39 113.39">
+  <!-- Generator: Adobe Illustrator 30.8.1, SVG Export Plug-In . SVG Version: 2.1.4 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: #e60012;
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+    </style>
+  </defs>
+  <circle class="st0" cx="56.69" cy="14.99" r="2.83"/>
+  <path class="st0" d="M61.08,10.16l16.24,22.71,26.62,8.43c3.53,1.12,4.91,5.37,2.71,8.35l-16.58,22.47.21,27.92c.03,3.7-3.59,6.33-7.1,5.16l-26.49-8.82-26.49,8.82c-3.51,1.17-7.13-1.46-7.1-5.16l.21-27.92L6.73,49.65c-2.2-2.98-.81-7.23,2.71-8.35l26.62-8.43,16.24-22.71c2.15-3.01,6.63-3.01,8.78,0Z"/>
+</svg>
