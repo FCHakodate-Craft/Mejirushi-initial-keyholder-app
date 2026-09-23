@@ -2,7 +2,7 @@
 const FRAME_COUNT=15, CUT="#ff0000", GAS_URL="https://script.google.com/macros/s/AKfycby6-AzGmwUicIrD0hvWGzJgY6jUBXFOnigq9o6-KkS0ijxxqpjZIoc7rYmBglBxPjN8/exec";
 const frameNames=["まる","しかく","六角形","八角形","ほし","ギザギザ","おはな","ふわふわ","おばけ","タグ","ハート","イカ","うさぎ","くま","ねこ"];
 // 枠ごとのイニシャル下方向補正（mm）。40mmアートボード = 113.39 SVG単位。
-const initialOffsetMm={5:1.5,13:5,14:2.5,15:2.5};
+const initialOffsetMm={5:1.5,7:1.5,13:6,14:1.5,15:2.5};
 const initialOffsetY=frameNumber=>(initialOffsetMm[frameNumber]||0)*(113.39/40);
 const palettes={透明系:[["クリア","#e8fbff"],["ピンク","#ffb8cc"],["レッド","#ff6673"],["オレンジ","#ffad65"],["イエロー","#ffe76c"],["グリーン","#72d6a1"],["ブルー","#62bceb"],["パープル","#ad87db"]],パステル系:[["桜","#f8c8d8"],["桃","#f4b5a5"],["ミルク","#fff5df"],["レモン","#f4e99d"],["ミント","#a8dec8"],["空","#a9d7ee"],["藤","#c7b6df"],["グレー","#c9c9c9"]],ビビッド系:[["赤","#e64248"],["橙","#f17c36"],["黄","#f2c230"],["黄緑","#84bd48"],["緑","#26966b"],["水色","#2caac4"],["青","#3561b6"],["紫","#7c47a6"],["黒","#333333"]]};
 const $=id=>document.getElementById(id); let state={frame:1,letter:"A",category:"透明系",colorName:"クリア",color:"#e8fbff"};
