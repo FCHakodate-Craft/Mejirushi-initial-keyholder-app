@@ -13,12 +13,13 @@
     <section class="layout">
       <div class="preview-card">
         <div id="preview" class="preview" aria-label="完成イメージ"><div id="previewFrame" class="fallback-shape"><span id="previewInitial">A</span></div><i id="previewCharm"></i></div>
-        <dl><div><dt>受付番号</dt><dd id="ticket"></dd></div><div><dt>えらんだもの</dt><dd id="summary"></dd></div></dl>
+        <dl><div><dt>受付番号</dt><dd id="ticket"></dd></div><div><dt>ニックネーム</dt><dd id="nicknamePreview">未入力</dd></div><div><dt>えらんだもの</dt><dd id="summary"></dd></div></dl>
       </div>
       <div class="steps">
-        <section><h2><b>1</b> かたちを選ぶ</h2><div id="frames" class="choice-grid frames"></div></section>
-        <section><h2><b>2</b> イニシャルを選ぶ</h2><div id="letters" class="choice-grid letters"></div></section>
-        <section><h2><b>3</b> アクリル板を選ぶ</h2><div id="colorTabs" class="tabs"></div><div id="colors" class="choice-grid colors"></div></section>
+        <section><h2><b>1</b> ニックネームを入力</h2><label class="nickname-field">ニックネーム<input id="nickname" type="text" maxlength="20" autocomplete="off" placeholder="例：はなこ" required></label><p class="input-note">保存ファイル名に使用します（20文字まで）</p></section>
+        <section><h2><b>2</b> かたちを選ぶ</h2><div id="frames" class="choice-grid frames"></div></section>
+        <section><h2><b>3</b> イニシャルを選ぶ</h2><div id="letters" class="choice-grid letters"></div></section>
+        <section><h2><b>4</b> アクリル板を選ぶ</h2><div id="colorTabs" class="tabs"></div><div id="colors" class="choice-grid colors"></div></section>
         <button id="done" class="primary">これで決定！</button>
       </div>
     </section>
