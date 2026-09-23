@@ -1,6 +1,6 @@
 (()=>{
 const FRAME_COUNT=15, CUT="#ff0000", GAS_URL="https://script.google.com/macros/s/AKfycbwBtZlhcJoNTWGWdIJoXSb1cTIjkS-C5UMzRUWmDgbrp3R70rHxFbZgTx0bJ4y_lps7BA/exec";
-const frameNames=["まる","しかく","六角形","八角形","ほし","ギザギザ","おはな","ふわふわ","おばけ","タグ","ハート","イカ","うさぎ","くま","ねこ"];
+const frameNames=["まる","しかく","六角形","八角形","ほし","とげとげ","おはな","もくもく","おばけ","タグ","ハート","イカ","うさぎ","くま","ねこ"];
 // 枠ごとのイニシャル下方向補正（mm）。40mmアートボード = 113.39 SVG単位。
 const initialOffsetMm={5:1.5,7:1.5,13:6,14:1.5,15:2.5};
 const initialOffsetY=frameNumber=>(initialOffsetMm[frameNumber]||0)*(113.39/40);
