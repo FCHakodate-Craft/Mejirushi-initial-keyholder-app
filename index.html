@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#f7f4ef">
   <title>めじるしイニシャルキーホルダー</title>
-  <link rel="stylesheet" href="styles.css?v=20260923-3">
+  <link rel="stylesheet" href="styles.css?v=20260924-1">
 </head>
 <body>
   <main>
     <header><p class="eyebrow">ORIGINAL KEYHOLDER</p><h1>めじるし<br>イニシャルキーホルダー</h1><p>かたち・イニシャル・アクリル板を選んでね</p></header>
     <section class="layout">
       <div class="preview-card">
-        <div id="preview" class="preview" aria-label="完成イメージ"><div id="previewFrame" class="fallback-shape"><span id="previewInitial">A</span></div><i id="previewCharm"></i></div>
+        <div id="preview" class="preview" aria-label="完成イメージ"><div id="previewFrame" class="fallback-shape"><span id="previewInitial">A</span></div><span class="preview-charm-card"><img id="previewCharm" alt="チャーム"></span></div>
         <dl><div><dt>受付番号</dt><dd id="ticket"></dd></div><div><dt>ニックネーム</dt><dd id="nicknamePreview">未入力</dd></div><div><dt>えらんだもの</dt><dd id="summary"></dd></div></dl>
       </div>
       <div class="steps">
@@ -20,11 +20,12 @@
         <section><h2><b>2</b> かたちを選ぶ</h2><div id="frames" class="choice-grid frames"></div></section>
         <section><h2><b>3</b> イニシャルを選ぶ</h2><div id="letters" class="choice-grid letters"></div></section>
         <section><h2><b>4</b> アクリル板を選ぶ</h2><div id="colorTabs" class="tabs"></div><div id="colors" class="choice-grid colors"></div></section>
+        <section><h2><b>5</b> チャームの色を選ぶ</h2><div id="charms" class="choice-grid charms"></div></section>
         <button id="done" class="primary">これで決定！</button>
       </div>
     </section>
   </main>
       <dialog id="doneDialog"><div class="dialog-card"><h2>できあがり！</h2><div id="donePreview" class="dialog-preview"></div><p id="doneSummary"></p><p>この画面のままスタッフに渡してください。</p><details><summary>スタッフ用</summary><label>合言葉<input id="staffPass" type="password"></label><button id="unlock">開く</button><div id="staffActions" hidden><button id="downloadSvg">加工用SVG</button><button id="downloadPreview">プレビュー画像</button><button id="downloadProof">確認用データ</button><button id="sendDrive">加工用SVG＋プレビューをDriveへ保存</button><button id="next" class="secondary">次の人へ</button></div><p id="status"></p></details><button id="edit" class="secondary">選び直す</button></div></dialog>
-  <script src="app.js?v=20260923-3"></script>
+  <script src="app.js?v=20260924-1"></script>
 </body>
 </html>
